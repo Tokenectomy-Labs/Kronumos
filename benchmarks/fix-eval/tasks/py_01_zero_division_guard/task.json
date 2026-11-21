@@ -1,0 +1,6 @@
+{
+  "id": "py_01_zero_division_guard",
+  "language": "Python",
+  "category": "ZeroDivisionError",
+  "test_cmd": "python3 -m unittest"
+}

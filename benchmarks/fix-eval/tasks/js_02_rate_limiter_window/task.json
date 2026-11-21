@@ -1,0 +1,6 @@
+{
+  "id": "js_02_rate_limiter_window",
+  "language": "JavaScript",
+  "category": "Window Boundary",
+  "test_cmd": "node --test"
+}

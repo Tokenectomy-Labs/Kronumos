@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-11-21T00:43:53Z",
+  "kronumos_version": "kronumos 1.3.0",
+  "mode": "cloud",
+  "total_tasks": 8,
+  "resolved_count": 8,
+  "pass_rate_pct": 100.0,
+  "truthful_exit_count": 8,
+  "clean_rollback_ok": true,
+  "total_tokens_in": 23697,
+  "total_tokens_out": 2320,
+  "total_duration_secs": 81.05,
+  "results": [
+    {
+      "id": "js_01_null_guard_parser",
+      "language": "JavaScript",
+      "category": "Null Dereference",
+      "mode": "cloud",
+      "test_cmd": "node --test",
+      "resolved": true,
+      "cli_exit_code": 0,
+      "exit_code_truthful": true,
+      "dirty_on_fail": false,
+      "changed_files": [
+        "config.mjs"
+      ],
+      "timed_out": false,
+      "duration_secs": 12.95,
+      "turns": 1,
+      "tokens_in": 1767,
+      "tokens_out": 280,
+      "tokens_saved": 1761,
+      "lines_pruned": 90,
+      "symbolic_solved": false
+    },
+    {
+      "id": "js_02_rate_limiter_window",
+      "language": "JavaScript",
+      "category": "Window Boundary",
+      "mode": "cloud",
+      "test_cmd": "node --test",
+      "resolved": true,
+      "cli_exit_code": 0,
+      "exit_code_truthful": true,
+      "dirty_on_fail": false,
+      "changed_files": [
+        "limiter.mjs"
+      ],
+      "timed_out": false,
+      "duration_secs": 23.86,
+      "turns": 2,
+      "tokens_in": 4127,
+      "tokens_out": 522,
+      "tokens_saved": 3478,
+      "lines_pruned": 177,
+      "symbolic_solved": false
+    },
+    {
+      "id": "py_01_zero_division_guard",
+      "language": "Python",
+      "category": "ZeroDivisionError",
+      "mode": "cloud",
+      "test_cmd": "python3 -m unittest",
+      "resolved": true,
+      "cli_exit_code": 0,
+      "exit_code_truthful": true,
+      "dirty_on_fail": false,
+      "changed_files": [
+        "metrics.py"
+      ],
+      "timed_out": false,
+      "duration_secs": 0.33,
+      "turns": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "tokens_saved": 0,
+      "lines_pruned": 0,
+      "symbolic_solved": true
+    },
+    {
+      "id": "py_02_off_by_one_pagination",
+      "language": "Python",
+      "category": "Boundary / Off-by-one",
+      "mode": "cloud",
+      "test_cmd": "python3 -m unittest",
+      "resolved": true,
+      "cli_exit_code": 0,
+      "exit_code_truthful": true,
+      "dirty_on_fail": false,
+      "changed_files": [
+        "paginator.py"
+      ],
+      "timed_out": false,
+      "duration_secs": 15.21,
+      "turns": 3,
+      "tokens_in": 7895,
+      "tokens_out": 345,
+      "tokens_saved": 4941,
+      "lines_pruned": 246,
+      "symbolic_solved": false
+    },
+    {
+      "id": "py_03_rlock_cache_deadlock",
+      "language": "Python",
+      "category": "Concurrency Deadlock",
+      "mode": "cloud",
+      "test_cmd": "python3 -m unittest",
+      "resolved": true,
+      "cli_exit_code": 0,
+      "exit_code_truthful": true,
+      "dirty_on_fail": false,
+      "changed_files": [
+        "cache.py"
+      ],
+      "timed_out": false,
+      "duration_secs": 8.68,
+      "turns": 1,
+      "tokens_in": 2009,
+      "tokens_out": 321,
+      "tokens_saved": 1647,
+      "lines_pruned": 82,
+      "symbolic_solved": false
+    },
+    {
+      "id": "py_04_multifile_discount_bug",
+      "language": "Python",
+      "category": "Multi-file Logic",
+      "mode": "cloud",
+      "test_cmd": "python3 -m unittest",
+      "resolved": true,
+      "cli_exit_code": 0,
+      "exit_code_truthful": true,
+      "dirty_on_fail": false,
+      "changed_files": [
+        "pricing.py"
+      ],
+      "timed_out": false,
+      "duration_secs": 4.03,
+      "turns": 1,
+      "tokens_in": 1748,
+      "tokens_out": 187,
+      "tokens_saved": 1647,
+      "lines_pruned": 82,
+      "symbolic_solved": false
+    },
+    {
+      "id": "rs_01_slice_bounds_panic",
+      "language": "Rust",
+      "category": "Panic / Bounds",
+      "mode": "cloud",
+      "test_cmd": "cargo test --offline",
+      "resolved": true,
+      "cli_exit_code": 0,
+      "exit_code_truthful": true,
+      "dirty_on_fail": false,
+      "changed_files": [
+        "src/lib.rs"
+      ],
+      "timed_out": false,
+      "duration_secs": 6.84,
+      "turns": 1,
+      "tokens_in": 1723,
+      "tokens_out": 257,
+      "tokens_saved": 1647,
+      "lines_pruned": 82,
+      "symbolic_solved": false
+    },
+    {
+      "id": "rs_02_parse_kv_unescape",
+      "language": "Rust",
+      "category": "Parser Edge Case",
+      "mode": "cloud",
+      "test_cmd": "cargo test --offline",
+      "resolved": true,
+      "cli_exit_code": 0,
+      "exit_code_truthful": true,
+      "dirty_on_fail": false,
+      "changed_files": [
+        "src/lib.rs"
+      ],
+      "timed_out": false,
+      "duration_secs": 9.15,
+      "turns": 2,
+      "tokens_in": 4428,
+      "tokens_out": 408,
+      "tokens_saved": 3294,
+      "lines_pruned": 164,
+      "symbolic_solved": false
+    }
+  ]
+}

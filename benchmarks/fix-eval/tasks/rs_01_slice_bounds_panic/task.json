@@ -1,0 +1,6 @@
+{
+  "id": "rs_01_slice_bounds_panic",
+  "language": "Rust",
+  "category": "Panic / Bounds",
+  "test_cmd": "cargo test --offline"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "py_03_rlock_cache_deadlock",
+  "language": "Python",
+  "category": "Concurrency Deadlock",
+  "test_cmd": "python3 -m unittest"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "js_01_null_guard_parser",
+  "language": "JavaScript",
+  "category": "Null Dereference",
+  "test_cmd": "node --test"
+}

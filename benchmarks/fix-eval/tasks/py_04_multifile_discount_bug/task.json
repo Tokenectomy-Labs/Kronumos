@@ -1,0 +1,6 @@
+{
+  "id": "py_04_multifile_discount_bug",
+  "language": "Python",
+  "category": "Multi-file Logic",
+  "test_cmd": "python3 -m unittest"
+}

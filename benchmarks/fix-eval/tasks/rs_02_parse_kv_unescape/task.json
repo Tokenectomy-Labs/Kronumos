@@ -1,0 +1,6 @@
+{
+  "id": "rs_02_parse_kv_unescape",
+  "language": "Rust",
+  "category": "Parser Edge Case",
+  "test_cmd": "cargo test --offline"
+}
